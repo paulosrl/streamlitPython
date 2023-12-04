@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Meu Site Streamlit")
+st.set_page_config(page_title="Site Streamlit")
 
 with st.container():
-    st.subheader("Meu primeiro site com o Streamlit")
+    st.subheader("Site com o Streamlit")
     st.title("Dashboard de Contratos")
-    st.write("Informações sobre os contratos fechados pela Hash&Co ao longo de maio")
-    st.write("Quer aprender Python? [Clique aqui](https://www.hashtagtreinamentos.com/curso-python)")
+    st.write("Informações sobre os contratos fechados")
+    #st.write("Quer aprender Python? [Clique aqui](https://www.hashtagtreinamentos.com/curso-python)")
 
 
 @st.cache_data
